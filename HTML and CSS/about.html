@@ -3,17 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SBA 307 | About</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
 
 <body>
-    <h1>About Page</h1>
-    <a href="index.html">Home Page</a>
-    <br>
-    <a href="services.html">Services Page</a>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="#About">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <!-- <li style="float:right"><a href="#about">About</a></li> -->
+    </ul>
+
+    <div class="container-1">
+      
+
+        <h2>Textarea</h2>
+        <p>The textarea element defines a multi-line input field.</p>
+
+        <form action="/action_page.php">
+            <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+            <br><br>
+            <input type="submit">
+        </form>
+    </div>
 </body>
 
 </html>
