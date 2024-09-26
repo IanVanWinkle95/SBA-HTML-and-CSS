@@ -6,7 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SBA 307 | About</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- <style>
+            div {
+              width: 100px;
+              height: 100px;
+              background-color: blue;
+              animation-name: example;
+              animation-duration: 4s;
+            }
+            
+            @keyframes example {
+              0%   {background-color: green;}
+              25%  {background-color: red;}
+              50%  {background-color: yellow;}
+              100% {background-color: blue;}
+            }
+            </style> -->
 </head>
 
 <body>
@@ -15,21 +32,68 @@
         <li><a href="index.html">Home</a></li>
         <li><a class="active" href="#About">About</a></li>
         <li><a href="services.html">Services</a></li>
-        <!-- <li style="float:right"><a href="#about">About</a></li> -->
     </ul>
 
     <div class="container-1">
       
 
-        <h2>Textarea</h2>
-        <p>The textarea element defines a multi-line input field.</p>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: relative;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+    
+            @keyframes example {
+                0% {
+                    background-color: red;
+                    left: 0px;
+                    top: 0px;
+                }
+    
+                25% {
+                    background-color: yellow;
+                    left: 200px;
+                    top: 0px;
+                }
+    
+                50% {
+                    background-color: blue;
+                    left: 200px;
+                    top: 200px;
+                }
+    
+                75% {
+                    background-color: green;
+                    left: 0px;
+                    top: 200px;
+                }
+    
+                100% {
+                    background-color: red;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        </style>
+        <p>The cat was playing in the garden.</p>
 
         <form action="/action_page.php">
-            <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+            <textarea name="message" rows="5" cols="50">The cat was playing in the garden.</textarea>
             <br><br>
             <input type="submit">
         </form>
     </div>
+
+    <!-- <h1>CSS Animation</h1> -->
+
+    <div></div>
+    
+    <!-- <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p> -->
 </body>
 
 </html>
